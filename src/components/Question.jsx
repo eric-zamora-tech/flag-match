@@ -17,6 +17,7 @@ function Question(props) {
 
     return (
     <>
+        {guessedCorrectly ? <h1>Correct!</h1> : <h1>Wrong!</h1>}
         <h2>Guess the flag:</h2>
         <img src={imgSrc}></img>
         <div className="card">

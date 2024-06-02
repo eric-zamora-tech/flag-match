@@ -10,10 +10,9 @@
     "gh-pages": "^6.1.1"
   },
   "scripts": {
-    "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "react-scripts build"
   },
   "browserslist": {
     "production": [
