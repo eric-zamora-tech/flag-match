@@ -1,6 +1,7 @@
 {
-  "homepage": "https://eric-zamora-tech.github.io/flag-match",
+  "homepage": "https://eric-zamora-tech.github.io/flag-match/",
   "dependencies": {
+    "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
     "react-bootstrap": "^2.10.2",
     "react-scripts": "^5.0.1"
@@ -9,8 +10,21 @@
     "gh-pages": "^6.1.1"
   },
   "scripts": {
+    "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
